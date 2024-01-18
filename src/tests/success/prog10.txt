@@ -1,0 +1,11 @@
+var v=[0;3];
+foreach i in v
+{
+    print i;
+    foreach i in v
+    {
+        if(i==1){
+            print i
+        }
+    }
+}
